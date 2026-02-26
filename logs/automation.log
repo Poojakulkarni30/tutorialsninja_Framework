@@ -1,0 +1,10 @@
+2026-02-25 19:57:39 INFO  RegistrationPageTest:15 - Starting Registration Test
+2026-02-25 19:57:40 INFO  RegistrationPageTest:19 - Navigated to Registration Page
+2026-02-25 19:57:42 INFO  RegistrationPageTest:32 - Submitted registration form
+2026-02-25 19:57:42 INFO  RegistrationPageTest:35 - verifying the successful message 
+2026-02-25 19:57:42 INFO  RegistrationPageTest:39 - Account successfully created
+2026-02-25 20:30:11 INFO  RegistrationPageTest:15 - Starting Registration Test
+2026-02-25 20:30:14 INFO  RegistrationPageTest:19 - Navigated to Registration Page
+2026-02-25 20:30:19 INFO  RegistrationPageTest:32 - Submitted registration form
+2026-02-25 20:30:19 INFO  RegistrationPageTest:35 - verifying the successful message 
+2026-02-25 20:30:19 INFO  RegistrationPageTest:39 - Account successfully created
