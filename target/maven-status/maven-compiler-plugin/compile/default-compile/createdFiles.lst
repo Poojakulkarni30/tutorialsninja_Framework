@@ -1,0 +1,7 @@
+com\opencart\utils\ExcelUtility.class
+com\opencart\objectpages\HomePage.class
+com\opencart\base\BasePage.class
+com\opencart\objectpages\LoginPage.class
+com\opencart\objectpages\MyAccountPage.class
+com\opencart\utils\ScreenshotUtil.class
+com\opencart\objectpages\RegistrationPage.class
