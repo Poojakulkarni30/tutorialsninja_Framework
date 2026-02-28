@@ -9,16 +9,16 @@ import com.opencart.objectpages.RegistrationPage;
 
 public class RegistrationPageTest extends BaseTest {
 
-	@Test
+	@Test(groups= {"Sanity", "Regression", "Master"})
 	public void verifyAccountRegistration() {
 
 		logger.info("Starting Registration Test");
-		HomePage hp = new HomePage(driver);
+		HomePage hp = new HomePage(getDriver());
 		hp.clickMyAccount();
 		hp.clickRegisterLink();
 		logger.info("Navigated to Registration Page");
 
-		RegistrationPage rp = new RegistrationPage(driver);
+		RegistrationPage rp = new RegistrationPage(getDriver());
 
 		rp.enterFirstName("Jayna");
 		rp.enterLastName("Wichai");

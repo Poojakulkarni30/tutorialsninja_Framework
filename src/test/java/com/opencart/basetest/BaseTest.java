@@ -17,17 +17,20 @@ import org.testng.annotations.Parameters;
 
 public class BaseTest {
 
-	public WebDriver driver;
+	private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	public Logger logger;
 	public Properties pr;
 
-	FileInputStream file;
+	public static WebDriver getDriver() {
+		return tlDriver.get();
+	}
 
-	@BeforeMethod
+	@BeforeMethod(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" })
 	public void setUp(String os, String br) throws IOException {
 
 		logger = LogManager.getLogger(this.getClass());
+		WebDriver driver;
 		switch (br.toLowerCase()) {
 
 		case "chrome":
@@ -44,22 +47,25 @@ public class BaseTest {
 			return;
 		}
 
-		file = new FileInputStream(System.getProperty("user.dir" )+ "/src/test/resources/config.properties");
+	tlDriver.set(driver);
+	FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/config.properties");
 		pr = new Properties();
-
 		pr.load(file);
-		driver.get(pr.getProperty("url"));
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		getDriver().get(pr.getProperty("url"));
+		getDriver().manage().window().maximize();
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		file.close();
 	}
 
-	@AfterMethod
+	
+
+	@AfterMethod(groups = { "Sanity", "Regression", "Master" })
 
 	public void tearDown() {
 
-		driver.quit();
+		getDriver().quit();
+		tlDriver.remove();
 	}
 
 }
