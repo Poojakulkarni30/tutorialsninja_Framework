@@ -32,3 +32,46 @@
 2026-02-28 13:45:23 INFO  LoginPageTest:17 - Starting Login Test
 2026-02-28 13:45:23 INFO  LoginPageTest:23 - Clicked on Login Link
 2026-02-28 13:45:24 INFO  LoginPageTest:31 - Clicked on Login button after entering email and password
+2026-02-28 14:01:44 INFO  RegistrationPageTest:15 - Starting Registration Test
+2026-02-28 14:01:45 INFO  RegistrationPageTest:19 - Navigated to Registration Page
+2026-02-28 14:01:48 INFO  RegistrationPageTest:32 - Submitted registration form
+2026-02-28 14:01:48 INFO  RegistrationPageTest:35 - verifying the successful message 
+2026-02-28 14:01:48 INFO  RegistrationPageTest:39 - Account successfully created
+2026-02-28 14:01:52 INFO  LoginPageTest:17 - Starting Login Test
+2026-02-28 14:01:53 INFO  LoginPageTest:23 - Clicked on Login Link
+2026-02-28 14:01:55 INFO  LoginPageTest:31 - Clicked on Login button after entering email and password
+2026-02-28 14:14:54 INFO  RegistrationPageTest:15 - Starting Registration Test
+2026-02-28 14:14:55 INFO  RegistrationPageTest:19 - Navigated to Registration Page
+2026-02-28 14:14:58 INFO  RegistrationPageTest:32 - Submitted registration form
+2026-02-28 14:15:08 INFO  RegistrationPageTest:35 - verifying the successful message 
+2026-02-28 14:15:13 INFO  LoginPageTest:17 - Starting Login Test
+2026-02-28 14:15:13 INFO  LoginPageTest:23 - Clicked on Login Link
+2026-02-28 14:15:15 INFO  LoginPageTest:31 - Clicked on Login button after entering email and password
+2026-02-28 14:15:16 INFO  LoginPageTest:36 - Successfully Logged in 
+2026-02-28 14:18:21 INFO  RegistrationPageTest:15 - Starting Registration Test
+2026-02-28 14:18:22 INFO  RegistrationPageTest:19 - Navigated to Registration Page
+2026-02-28 14:18:26 INFO  RegistrationPageTest:32 - Submitted registration form
+2026-02-28 14:18:26 INFO  RegistrationPageTest:35 - verifying the successful message 
+2026-02-28 14:18:26 INFO  RegistrationPageTest:39 - Account successfully created
+2026-02-28 14:18:30 INFO  LoginPageTest:17 - Starting Login Test
+2026-02-28 14:18:31 INFO  LoginPageTest:23 - Clicked on Login Link
+2026-02-28 14:18:32 INFO  LoginPageTest:31 - Clicked on Login button after entering email and password
+2026-02-28 14:18:33 INFO  LoginPageTest:36 - Successfully Logged in 
+2026-02-28 14:20:06 INFO  RegistrationPageTest:15 - Starting Registration Test
+2026-02-28 14:20:08 INFO  RegistrationPageTest:19 - Navigated to Registration Page
+2026-02-28 14:20:12 INFO  RegistrationPageTest:32 - Submitted registration form
+2026-02-28 14:20:12 INFO  RegistrationPageTest:35 - verifying the successful message 
+2026-02-28 14:20:12 INFO  RegistrationPageTest:39 - Account successfully created
+2026-02-28 14:20:17 INFO  LoginPageTest:17 - Starting Login Test
+2026-02-28 14:20:18 INFO  LoginPageTest:23 - Clicked on Login Link
+2026-02-28 14:20:18 INFO  LoginPageTest:31 - Clicked on Login button after entering email and password
+2026-02-28 14:20:20 INFO  LoginPageTest:36 - Successfully Logged in 
+2026-02-28 15:06:47 INFO  RegistrationPageTest:15 - Starting Registration Test
+2026-02-28 15:06:48 INFO  RegistrationPageTest:19 - Navigated to Registration Page
+2026-02-28 15:06:51 INFO  RegistrationPageTest:32 - Submitted registration form
+2026-02-28 15:06:52 INFO  RegistrationPageTest:35 - verifying the successful message 
+2026-02-28 15:06:52 INFO  RegistrationPageTest:39 - Account successfully created
+2026-02-28 15:06:56 INFO  LoginPageTest:17 - Starting Login Test
+2026-02-28 15:06:56 INFO  LoginPageTest:23 - Clicked on Login Link
+2026-02-28 15:06:58 INFO  LoginPageTest:31 - Clicked on Login button after entering email and password
+2026-02-28 15:06:58 INFO  LoginPageTest:36 - Successfully Logged in 
