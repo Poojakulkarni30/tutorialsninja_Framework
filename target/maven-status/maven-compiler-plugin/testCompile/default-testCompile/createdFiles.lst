@@ -1,0 +1,6 @@
+com\opencart\listeners\ExtentReportManager.class
+com\opencart\tests\RegistrationPageTest.class
+com\opencart\dataproviders\TestDataProviders.class
+com\opencart\tests\Login_DDT.class
+com\opencart\basetest\BaseTest.class
+com\opencart\tests\LoginPageTest.class
