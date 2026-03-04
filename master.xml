@@ -5,7 +5,6 @@
         <listener class-name="com.opencart.listeners.ExtentReportManager"/>
     </listeners>
   <test thread-count="5" name="Test">
-  <parameter name="os" value="windows"></parameter>
   <parameter name="browser" value="chrome"></parameter>
     <classes>
    <class name="com.opencart.tests.RegistrationPageTest"/>

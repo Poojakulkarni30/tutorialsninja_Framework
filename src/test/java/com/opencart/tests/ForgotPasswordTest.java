@@ -20,7 +20,7 @@ public class ForgotPasswordTest extends BaseTest {
 		hp = new HomePage(getDriver());
 
 		hp.clickMyAccount();
-		hp.clickLogin();
+		hp.clickLoginLink();
 		logger.info("Clicked on Login Link");
 
 		fp = new ForgotPasswordPage(getDriver());
@@ -40,7 +40,7 @@ public class ForgotPasswordTest extends BaseTest {
 		hp = new HomePage(getDriver());
 
 		hp.clickMyAccount();
-		hp.clickLogin();
+		hp.clickLoginLink();
 		logger.info("Clicked on Login Link");
 		fp = new ForgotPasswordPage(getDriver());
 		fp.ClickForgotPasswordLink();
